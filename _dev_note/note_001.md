@@ -9,6 +9,7 @@ Création d'un nouveau projet :
 
 Configuration de base :
 
-- Styles : scss
+- Styles : css
+- Zoneless : zoneless (zone.js)
 - SSR : no
 - Agent IA : none
