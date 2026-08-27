@@ -1,7 +1,8 @@
 # Angular
 
 ---
-_**Partie 1 **_
+
+_\**Partie 1 **_
 ---
 
 ## Qu'est ce que Angular ?
@@ -12,6 +13,7 @@ Angular est un framework JavaScript frontend pour la construction d'interface we
 
 Pour des application web complexe, intrégrant le code déclaratif au lieu du simple code impératif de JavaScript.
 En résumé :
+
 - Simplication du processus de développement
 - Créationd'application modulaire
 - Orienté objet.
@@ -21,17 +23,18 @@ En résumé :
 
 ### AngularJS - Simple librairie JavaScript
 
-Durée de vie le libraire : **2010** à **2022**. 
+Durée de vie le libraire : **2010** à **2022**.
 [plus d'infos](https://en.wikipedia.org/wiki/AngularJS).
 
 ### Angular 21 - Framework modern
 
 Durée de vie du framework : **2016** à **Aujourd'hui**
-[plus d'infos](https://en.wikipedia.org/wiki/Angular_(web_framework)).
+[plus d'infos](<https://en.wikipedia.org/wiki/Angular_(web_framework)>).
 
 Sortie en version 2 en 2016, **la version actuelle est la 22**.
 
 Version majeurs :
+
 - **2016 - Angular 2** - réécriture total de Angular JS vers Angular
 - **2017 - Angular 5** - HTTP, guards & resolvers, support for web apps and Matrial Design
 - **2018 - Angular 7** - Updating : performans, Material, CDK, Accessibility, TypeScript 3.1 support and RxJS
@@ -44,7 +47,7 @@ Version majeurs :
 - **2022 - Angular 22** - Stable Signal forms and Stable accessible components with Angular ARIA.
     - includes : Angular 17, 18, 19, 21 : Updating Standalone (for CLI, Angular directives, components and pipes), NgModule, syntax for control flow and documentation website, Experimental zoneless change detection support, SSR, Experimental Signal forms and Experimental accessible components with Angular ARIA and Zoneless
 
-[historique des versions](https://en.wikipedia.org/wiki/Angular_(web_framework)#Version_history)
+[historique des versions](<https://en.wikipedia.org/wiki/Angular_(web_framework)#Version_history>)
 
 ## OpenSource code :
 
@@ -54,7 +57,8 @@ Version majeurs :
     - [Package - Tool - @angular/cli](https://www.npmjs.com/package/@angular/cli)
 
 ---
-_**Partie 2 **_
+
+_\**Partie 2 **_
 ---
 
 ## Prérequis
@@ -70,32 +74,41 @@ _**Partie 2 **_
 
 ### Installation d'Angular CLI
 
-````bash
+```bash
 npm install -g @angular/cli
-````
+```
 
 ## Création d'un nouveau projet
 
-````bash
+```bash
 ng new first-angular-app --no-zoneless
-````
+```
 
 > Par défaut, Angular créer un projet configuré en mode « zoneless » (sans zone) sans l'option `--no-zoneless` _(n'inclus donc pas la librairie zone.js)_.
 
 ## VSCode extensions nécessaire
 
 - [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
-    - of  [Angular](https://marketplace.visualstudio.com/publishers/Angular)
+    - of [Angular](https://marketplace.visualstudio.com/publishers/Angular)
 - [Angular Essentials](https://marketplace.visualstudio.com/items?itemName=johnpapa.angular-essentials)
     - of [John Papa](https://marketplace.visualstudio.com/publishers/johnpapa)
 
 ## Démarrage du projet
 
-````bash
+```bash
 npm start
-````
+```
 
 ## Eléments principaux à connaitre
 
 - Les essentiels de Angular
 - Les Deep Dives : components, directives, pipes, services & DI, change detection, HTTP, forms, routing, ...
+
+---
+
+_\**Partie 3 **_
+---
+
+## Les décorateurs
+
+- `@Component`

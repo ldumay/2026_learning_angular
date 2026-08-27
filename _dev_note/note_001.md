@@ -1,4 +1,3 @@
-
 Prérequis :
 
 - npm install -g @angular/cli
